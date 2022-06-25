@@ -1,0 +1,53 @@
+* {
+    box-sizing: border-box;
+    background-color: rgb(19, 17, 31);
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&display=swap');
+
+.heading {
+    margin: 20px;
+    text-align: center;
+    font-family: 'Dancing Script', cursive;
+    color: rgb(224, 219, 246);
+}
+
+img {
+    height: 500px;
+}
+
+#slider {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    margin-left: 40px;
+}
+
+.button__wrapper {
+    margin-top: 20px;
+    margin-right: 70px;
+    justify-self: center;
+}
+
+#prev,
+#next {
+    height: 25px;
+    width: 50px;
+
+    font-family: 'Dancing Script', cursive;
+    color: rgb(49, 41, 85);
+
+    border-radius: 50px;
+    border-color: rgb(235, 248, 255);
+    background-color: rgb(235, 248, 255);
+
+}
+
+#items {
+    height: 550px;
+    margin-left: 430px;
+    margin-top: 15px;
+
+    background: url("../assets/1.jpg");
+    background-repeat: no-repeat;
+    background-size: 550px 550px;
+}
